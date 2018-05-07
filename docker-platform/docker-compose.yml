@@ -1,0 +1,18 @@
+version: '2'
+services:
+  axonhub:
+    build: 
+      context: ./axonhub
+    container_name: axonhub
+    ports:
+    - "8024:8024"
+    - "8124:8124"
+    depends_on:
+    - "axondb"
+  axondb:
+    build: 
+      context: ./axondb
+    container_name: axondb
+    ports:
+    - "8023:8023"
+    - "8123:8123"

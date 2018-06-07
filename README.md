@@ -1,5 +1,6 @@
 # gc-wien
-GiftCard demo application as live coded at DDD/Microservices Vienna on 3 May 2018
+GiftCard demo application as live coded at DDD/Microservices Vienna on 3 May 2018.
+Tech stack: Axon 3, Spring Boot, front-end using Vaadin
 
 ## Running this application
 
